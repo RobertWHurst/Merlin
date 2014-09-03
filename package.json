@@ -1,0 +1,27 @@
+{
+  "name": "merlin",
+  "version": "0.0.0",
+  "description": "Merlin is an ORM for node JS that provides an extensive API, model relations, a plugins interface, and can connect to any database with a driver.",
+  "main": "./",
+  "scripts": {
+    "test": "tape ./test/*.js | tspec"
+  },
+  "dependencies": {
+    "clone": "^0.1.17",
+    "event-stream": "^3.1.7",
+    "extend": "^1.3.0",
+    "fleck": "^0.5.1",
+    "merlin-delta": "0.0.0",
+    "merlin-query": "0.0.0",
+    "merlin-schema": "0.0.0",
+    "object-path": "^0.6.0",
+    "type-guard": "0.0.1"
+  },
+  "devDependencies": {
+    "mi6": "^0.3.1",
+    "tap-spec": "^0.2.0",
+    "tape": "^2.13.3"
+  },
+  "author": "Robert Hurst <robertwhurst@gmail.com>",
+  "license": "MIT"
+}
