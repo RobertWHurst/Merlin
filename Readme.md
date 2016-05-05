@@ -1,4 +1,4 @@
-[ ![Codeship Status for passagelabs/Merlin](https://www.codeship.io/projects/99e02c30-2c0f-0132-e437-4ada8c37d763/status)](https://www.codeship.io/projects/38741)
+[![Build Status](https://travis-ci.org/RobertWHurst/Merlin.svg?branch=es6)](https://travis-ci.org/RobertWHurst/Merlin)
 
 ## Merlin ORM
 
