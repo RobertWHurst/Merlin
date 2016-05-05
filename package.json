@@ -1,0 +1,20 @@
+{
+  "name": "merlin",
+  "version": "1.0.0",
+  "description": "Merlin is an ORM for node JS that provides an extensive API, model relations, a plugins interface, and can connect to any supported database with a driver.",
+  "main": "./",
+  "scripts": {
+    "test": "mocha test/*.js",
+    "debug-test": "node-debug _mocha test/*.js"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "node-inspector": "^0.12.8",
+    "sinon": "^1.17.4"
+  },
+  "author": "Robert Hurst <robertwhurst@gmail.com>",
+  "license": "MIT"
+}
