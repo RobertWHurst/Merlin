@@ -33,7 +33,3 @@ Customer.insert([ { ... }, ... ], function(err, customers) {
 ```javascript
 inStream.pipe(Customer.insert()).pipe(outStream);
 ```
-
-
-
-
